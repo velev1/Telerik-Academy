@@ -16,7 +16,7 @@
         }
 
         public Battery(string setModel, Manufacturers setManifacturer, BatteryTypes setBatteryType)
-            : base(setModel, setManifacturer)
+            : this(setModel, setManifacturer)
         {
             this.batteryType = setBatteryType;
         }

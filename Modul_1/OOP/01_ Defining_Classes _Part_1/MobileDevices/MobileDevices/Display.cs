@@ -15,7 +15,7 @@
         }
 
         public Display(string setModel, Manufacturers setManifacturer, int setColors, decimal setSize)
-            : base(setModel, setManifacturer)
+            : this(setModel, setManifacturer)
         {
             this.Colors = setColors;
             this.Size = setSize; 

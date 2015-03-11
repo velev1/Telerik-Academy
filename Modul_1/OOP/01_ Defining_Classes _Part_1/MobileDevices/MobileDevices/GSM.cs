@@ -14,7 +14,7 @@
         private string owner;
         private Battery battery;
         private Display display;
-        private List<Call> callHistory = new List<Call>();
+        private List<Call> callHistory; 
         
         //constrictors
         public GSM(string setModel, Manufacturers setManifacturer)
@@ -24,10 +24,11 @@
             this.display = null;
             this.owner = null;
             this.price = null;
+            this.callHistory = new List<Call>();
         }
 
         public GSM(string setModel, Manufacturers setManifacturer, int? setPrice, string setOwner, Battery setBattery, Display setDisplay)
-            : base(setModel, setManifacturer)
+            : this(setModel, setManifacturer)
         {
             this.battery = setBattery;
             this.display = setDisplay;
