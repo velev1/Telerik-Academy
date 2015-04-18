@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Shapes", "Shapes\01_Shapes.csproj", "{D940B4B7-C4C7-489B-9B22-8F1907F3DAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Bank", "BankAccounts\02_Bank.csproj", "{160C30A2-F46E-494A-B931-90C8D061FCC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_RangeExceptions", "RangeExceptions\03_RangeExceptions.csproj", "{B2CBFA92-9F9A-4B55-843C-BD9D7252BB8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D940B4B7-C4C7-489B-9B22-8F1907F3DAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D940B4B7-C4C7-489B-9B22-8F1907F3DAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D940B4B7-C4C7-489B-9B22-8F1907F3DAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D940B4B7-C4C7-489B-9B22-8F1907F3DAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160C30A2-F46E-494A-B931-90C8D061FCC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160C30A2-F46E-494A-B931-90C8D061FCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160C30A2-F46E-494A-B931-90C8D061FCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160C30A2-F46E-494A-B931-90C8D061FCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CBFA92-9F9A-4B55-843C-BD9D7252BB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CBFA92-9F9A-4B55-843C-BD9D7252BB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CBFA92-9F9A-4B55-843C-BD9D7252BB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CBFA92-9F9A-4B55-843C-BD9D7252BB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
