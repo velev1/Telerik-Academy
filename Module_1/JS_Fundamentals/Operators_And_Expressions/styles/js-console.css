@@ -1,0 +1,40 @@
+﻿@font-face {
+  font-family: akbarFont;
+  src: url('fonts/akbar.eot');
+  src: url('fonts/akbar.eot?#iefix') format('embedded-opentype'),
+  url('fonts/akbar.woff2') format('woff2'),
+  url('fonts/akbar.woff') format('woff'),
+  url('fonts/akbar.ttf') format('truetype');
+}
+
+.js-console {
+  margin: 0;
+}
+body .js-console {
+  margin: 0;
+  padding: 25px 25px 25px 30px;
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+  font-family: akbarFont;
+  font-size: 14px;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+  word-break: normal;
+  opacity: 1;
+}
+body .js-console > p {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: block;
+}
+body .js-console > p > span {
+  margin: 0;
+  padding: 0;
+}
+body .js-console > p > br {
+  display: inline-block;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,183 @@
+﻿<!-- Problem 4.* Grid component
+Construct the following Grid component:
+Try to make a HTML page, that looks just like the example
+CSS is required -->
+
+<!-- Task target: https://cloud.githubusercontent.com/assets/3619393/7003234/b2d1eb4a-dc5f-11e4-8844-f1462f705ddf.png -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>04 Grid Component</title>
+    <link href="StyleSheetGidComponent.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td id="topRow" colspan="6">Drag a column to header and drop it here to group by that column</td>
+                </tr>
+                <tr id="collNames">
+                    <th>ProductID</th>
+                    <th id="productName">Product name</th>
+                    <th>Unit price</th>
+                    <th>Quantity per unit</th>
+                    <th>Units in stock</th>
+                    <th>Discounted</th>
+                </tr>
+                <tr id="orderSection">
+                    <td >
+                        <input type="text" id="productId" />
+                    </td>
+                    <td id="productName">
+                        <input type="text" value="" />
+                    </td>
+                    <td>
+                        <span>
+                            <input type="text" value="" class="midCol" />
+                            <input type="button" value="" />
+                        </span>
+
+                    </td>
+                    <td >
+                        <input type="text" value="" class="midCol" />
+                    </td>
+                    <td >
+                        <input type="text" value="" class="midCol" />
+                        <input type="button" value="" />
+                    </td>
+                    <td id="discounted">
+                        <input type="checkbox" value="" />
+                        <input type="button" value="" />
+                    </td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td id="botRow" colspan="6">
+                        <div class="footer">
+                            <span>
+                                <button id="bfirst"></button>
+                            </span>
+                            <span>
+                                <button id="bprev"></button>
+                            </span>                          
+                            <span id="selectedPage">1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>5</span>
+                            <span>6</span>
+                            <span>7</span>
+                            <span>8</span>
+                            <span>9</span>
+                            <span>10</span>
+                            <span>...</span>
+                            <span>
+                                <button id="bnext"></button>
+                            </span>
+                            <span>
+                                <button id="blast"></button>
+                            </span>
+                            <span id="pagesSize">Page size:</span>
+                            <span>
+                                <select>
+                                    <option>10</option>
+                                    <option>20</option>
+                                    <option>30</option>
+                                </select>
+                            </span>
+                            <span id="itemsCount">335104 items in 33511 pages</span>
+                            
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chai</td>
+                    <td>$18.00</td>
+                    <td>10 boxes x 20 bags</td>
+                    <td>39</td>
+                    <td><input type="checkbox" value=""  disabled/></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Chang</td>
+                    <td>$19.00</td>
+                    <td>24 - 12 oz bottles</td>
+                    <td>17</td>
+                    <td><input type="checkbox" name="name" value=" " disabled /></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Anised Syrup</td>
+                    <td>$10.00</td>
+                    <td>12 - 55 ml bottles</td>
+                    <td>13</td>
+                    <td><input type="checkbox" name="name" value=" " disabled /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Chef Anton's Cajum Seasoning</td>
+                    <td>$22.00</td>
+                    <td>48 - 6 oz jars</td>
+                    <td>53</td>
+                    <td><input type="checkbox" name="name" value=" " disabled /></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Chef Anton's Gumbo Mix</td>
+                    <td>$21.35</td>
+                    <td>36 boxes</td>
+                    <td>0</td>
+                    <td><input type="checkbox" name="name" checked disabled /></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Grandma's Boysenberry Spread</td>
+                    <td>$25.00</td>
+                    <td>12 - 8 oz jars</td>
+                    <td>120</td>
+                    <td><input type="checkbox" name="name" value=" " disabled /></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Uncle Bob's Organic Dried Pears</td>
+                    <td>$30.00</td>
+                    <td>12 - 1 lb pkgs.</td>
+                    <td>15</td>
+                    <td><input type="checkbox" name="name" value=" " disabled /></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Northwoods Cranbery Sauce</td>
+                    <td>$40.00</td>
+                    <td>12 - 12 oz jars</td>
+                    <td>6</td>
+                    <td><input type="checkbox" name="name" value=" " disabled /></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Mishi Kobe Niku</td>
+                    <td>$97.00</td>
+                    <td>18-500 g pkgs.</td>
+                    <td>29</td>
+                    <td><input type="checkbox" name="name" value=" " checked disabled /></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Ikura</td>
+                    <td>$31.00</td>
+                    <td>12 - 200 ml jars</td>
+                    <td>31</td>
+                    <td><input type="checkbox" name="name" value=" " disabled /></td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </form>
+</body>
+</html>

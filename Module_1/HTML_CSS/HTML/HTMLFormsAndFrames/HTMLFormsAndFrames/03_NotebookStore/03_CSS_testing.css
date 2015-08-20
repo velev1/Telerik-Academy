@@ -1,0 +1,63 @@
+﻿table {
+    font-family: Corbel;
+    font-weight: bold;
+    border-spacing: 0;
+}
+
+.mainTable tr td {
+    padding: 5px;
+}
+
+.fieldTable, .fieldTable tr, .fieldTable tr td {
+    border: none;
+}
+
+.mainTable > tr > td {
+    border: dashed 2px black;
+}
+
+legend {
+    text-align: center;
+    width: auto;
+    font-size: large;
+}
+
+.mainTable {
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+    .mainTable tr {
+        border: dashed 2px black;
+    }
+
+
+
+.BigTable, fieldset {
+    border: solid 2px black;
+}
+
+    .BigTable tr {
+        border: none;
+    }
+
+a {
+    font-weight: bold;
+    color: deepskyblue;
+    font-size: x-large;
+}
+
+.settings, .settings div, .settings tr, .settings tr td {
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+}
+
+input[type="range"] {
+    width: 180px;
+}
+
+#topRow {
+    border-bottom: 2px solid black;
+}

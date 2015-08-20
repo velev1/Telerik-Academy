@@ -1,0 +1,6 @@
+Please, open the *.sln file and there you will find all of the homework tasks.*
+* Note that some tasks are in the corresponding folders !!
+Please, use Visual Studio to run the *.html files 
+(Ctrl + F5 when you are in the desired html page inside the solution)
+
+Have a nice review and let the power be with you!

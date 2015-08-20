@@ -1,0 +1,85 @@
+@font-face {
+    font-family: NEUROPOL;
+    src: url('fonts/Xolonium-Regular.eot');
+    src: url('fonts/Xolonium-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Xolonium-Regular.woff2') format('woff2'),
+    url('fonts/Xolonium-Regular.woff') format('woff'),
+    url('fonts/Xolonium-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #1a3157;
+    color: #ffffff;
+    font-family: NEUROPOL;
+    cursor: url("media/dexter/cursor.png"), auto;
+}
+
+button, a, label, input[type=checkbox] {
+    cursor: url("media/dexter/cursor-pointer.png"), pointer;
+}
+
+body .js-console{
+    font-family: NEUROPOL;
+    font-size: 14px;
+}
+a{
+    color: #828282;
+}
+a:visited {
+    color: #828282;
+}
+
+header{
+    background:  #1a3157;
+}
+
+#board {
+    background-image: url("media/dexter/board.jpg");
+
+
+}
+
+#backgroundWrapper {
+    background-image: url("media/dexter/deedee-bacground.png");
+}
+
+button, #problem {
+    font-family: NEUROPOL;
+    background: #5b5b5b;
+    color: white;
+
+}
+
+::-webkit-input-placeholder {
+    font-family: NEUROPOL;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-family: NEUROPOL;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+::-moz-placeholder {
+
+    font-family: NEUROPOL;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+:-ms-input-placeholder {
+    font-family: NEUROPOL;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+div#input input[type=text], #check, #check-label{
+    font-family: NEUROPOL;
+}
+
+#music{
+    background-image: url("media/play-button.png");
+}
+
+#sfx{
+     background-image: url("media/sfx-button.png");
+ }

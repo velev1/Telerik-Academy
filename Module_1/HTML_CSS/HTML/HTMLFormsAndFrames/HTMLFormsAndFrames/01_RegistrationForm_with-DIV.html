@@ -1,0 +1,148 @@
+﻿<!-- Problem 1. Registration form
+Create a Web form that looks like this sample: -->
+
+<!-- Task target: https://github.com/karabeliov/Telerik-Academy/blob/master/Homeworks/C%231/07.Exam-preparation/form.png -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>01 Registration form (with divs)</title>   
+    <style> 
+        .left{
+            text-align: center;
+        }
+     
+        table, tr, td{
+            border: 1px  solid black;    
+            border-collapse: collapse;        
+        }      
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <table>
+                <tr >
+                    <td class="left">
+                        <label for="last name">Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="last name" size="35" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left">
+                        <label for="first name">First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="first name" size="35" />
+                    </td>
+                </tr>
+                <tr >
+                    <td class="left">
+                        <label for="addres">Addres</label>
+                    </td>
+                    <td>
+                        <textarea id="addres" cols="25" rows="4"></textarea>
+                    </td>
+                </tr>
+                <tr >
+                    <td class="left">
+                        <label for="city">City</label>
+                    </td>
+                    <td>
+                        <input type="text" id="city" />
+                        <label for="state">State</label>
+                        <input type="text" id="state" size="5" />
+                    </td>
+                </tr>
+                <tr >
+                    <td class="left">
+                        <label for="zip">Zip/Postal Code</label>
+                    </td>
+                    <td>
+                        <input type="text" id="zip" size="8">
+                    </td>
+                </tr>
+                <tr >
+                    <td class="left">
+                        <label for="country">Country</label>
+                    </td>
+                    <td>
+                        <select id="country" style="width:150px">
+                            <option selected="selected">Bulgaria</option>
+                            <option>US</option>
+                            <option>UK</option>
+                            <option>Madagaskar</option>
+                            <option>Sweeden</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr >
+                    <td class="left">
+                        <label for="code">Phone(country code,<br />area code, number)</label>
+                    </td>
+                    <td>
+                        (+
+                        <input type="tel" size="5" id="code" />
+                        )
+                        <input type="tel" size="5" />
+                        <input type="tel" size="10" />
+                    </td>
+                </tr>
+                <tr >
+                    <td class="left">
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" size="35" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left">
+                        <label for="birthday">Birth date</label>
+                    </td>
+                    <td>
+                        <input type="date" id="birthday" placeholder="дд.мм.гггг г." />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left">
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <select id="gender">
+                            <option selected>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left">
+                        <label for="starting date">Starting date</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="season" />Spring 2015
+                        <input type="radio" name="season" />Summer 2015
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left">
+                        <label for="C/Q">Comments/Questions</label>
+                    </td>
+                    <td>
+                        <textarea id="C/Q" cols="25" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left" colspan="2" bgcolor="#87CEEB">
+                        <input type="submit" />
+                        <input type="reset" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

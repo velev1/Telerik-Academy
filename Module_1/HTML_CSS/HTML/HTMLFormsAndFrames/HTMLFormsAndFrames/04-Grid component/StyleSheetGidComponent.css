@@ -1,0 +1,175 @@
+﻿
+body, th {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+table {
+    *border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+}
+#productName{
+    padding-right:100px;
+}
+
+#topRow {
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    border-color: lightgray;
+    border-top: 1px solid lightgray;
+    background-color: #E7E9EB;
+}
+
+#botRow {
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    -ms-align-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+    background: rgb(238,238,238); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+
+#productId {
+    width: 25px;
+}
+
+tr, td, th {
+    border-collapse: collapse;
+    border-top: none;
+    border-bottom-color: lightgray;
+    border-left: none;
+    border-right-color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    vertical-align: central;
+    text-align: left;
+}
+
+    td:first-child, th:first-child {
+        border-left-color: lightgray;
+        border-left: 1px solid lightgray;
+        width: 20px;
+    }
+
+tbody td:last-child input[type=checkbox] {
+    opacity: 0.5;
+}
+
+#collNames th {
+    background: rgb(238,238,238); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    */;
+}
+
+#orderSection td {
+    background-color: #E7E9EB;
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    -ms-align-content: center;
+    -webkit-align-content: center;
+    align-content: center;
+}
+
+#selectedPage{
+    border: 1px solid darkred;
+    border-radius: 3px 3px 3px 3px;
+    padding-left:3px;
+    padding-right:3px;
+    padding-bottom: 1px;
+}
+button, input[type=button] {
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid darkgray;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 98%, rgba(237,237,237,1) 99%, rgba(237,237,237,1) 99%, rgba(237,237,237,1) 100%, rgba(237,237,237,1) 100%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(98%,rgba(237,237,237,1)), color-stop(99%,rgba(237,237,237,1)), color-stop(99%,rgba(237,237,237,1)), color-stop(100%,rgba(237,237,237,1)), color-stop(100%,rgba(237,237,237,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(237,237,237,1) 98%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 100%,rgba(237,237,237,1) 100%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(237,237,237,1) 98%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 100%,rgba(237,237,237,1) 100%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(237,237,237,1) 98%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 100%,rgba(237,237,237,1) 100%,rgba(246,246,246,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(237,237,237,1) 98%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 99%,rgba(237,237,237,1) 100%,rgba(237,237,237,1) 100%,rgba(246,246,246,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+#itemsCount{
+    float:right;
+}
+
+#orderSection input[type=button] {
+    background-image: url(images/bfilter.png);
+    background-size: contain;
+}
+
+#bfirst {
+    background-image: url(images/bfirst.png);
+    background-size: contain;
+}
+
+#blast{
+      background-image: url(images/blast.png);
+   background-size:contain;
+}
+#bnext{
+      background-image: url(images/bnext.png);
+   background-size:contain;
+}
+
+#bprev{
+      background-image: url(images/bprev.png);
+   background-size:contain;
+}
+
+input[type=chekbox] {
+}
+
+.midCol {
+    width: 75px;
+}
+
+#pagesSize{
+   margin-left:20px;
+}
+span {
+    vertical-align: middle;
+    margin:3px;
+}
+
+#lastCol{
+    text-align:right;
+}
+
+select {
+    border-radius: 3px;
+    -ms-scrollbar-base-color: gray;
+    scrollbar-base-color: gray;
+    -webkit-appearance: menulist;
+    align-items: center;
+    border: 1px solid;
+    white-space: pre;
+    background-color: white;
+    cursor: default;
+    padding-right: 5px;
+    border-color: lightgray;
+}

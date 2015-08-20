@@ -1,0 +1,283 @@
+@font-face {
+    font-family: akbarFont;
+    src: url('fonts/akbar.eot');
+    src: url('fonts/akbar.eot?#iefix') format('embedded-opentype'),
+    url('fonts/akbar.woff2') format('woff2'),
+    url('fonts/akbar.woff') format('woff'),
+    url('fonts/akbar.ttf') format('truetype');
+}
+
+body {
+    font-family: akbarFont;
+    letter-spacing: 2px;
+    background-color: #FED51D;
+    color: #5b5b5b;
+    cursor: url("media/cursor.png"), auto;
+    text-align: center;
+}
+
+body, div, p, input, a, header, footer,  {
+    margin: 0;
+    padding: 0;
+
+}
+
+button, a {
+    cursor: url("media/cursor-pointer.png"), pointer;
+}
+
+.clearFix {
+    zoom: 1;
+}
+
+.clearFix:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+
+#wrapper {
+    margin: 0 auto;
+    width: 860px;
+
+}
+
+#homer {
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    background-image: url("media/homer-bacground.png");
+    background-position:  bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+header {
+    text-align: left;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+
+    border-radius: 15px;
+    border: 3px solid white;
+    margin: 10px 0;
+    background: #FED51D;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+    color: #292929;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #292929;
+}
+
+button, #problem {
+    margin: 0;
+    display: inline-block;
+    background-color: #5b5b5b;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 3px solid white;
+    border-radius: 15px;
+    font-family: akbarFont;
+    color: #FED51D;
+    opacity: 0.9;
+    text-align: center;
+    width: 230px;
+    box-sizing: content-box;
+    word-wrap: normal;
+    word-wrap: normal;
+
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+}
+
+#submit {
+    width: auto;
+}
+
+#problem {
+    margin-left: 40px;
+    background: #404040;
+}
+
+button:nth-last-of-type(1) {
+    float: right;
+}
+
+button:hover {
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 20px 4px rgba(255, 255, 255, 0.75);
+}
+
+button:active {
+    opacity: 0.9;
+    background-color: #5b5b5b;
+    -webkit-box-shadow: inset 0px 0px 22px 4px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset 0px 0px 22px 4px rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 0px 22px 4px rgba(255, 255, 255, 1);
+}
+
+button:disabled {
+    opacity: 0.3;
+}
+
+div#js-console {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+div#input {
+    padding: 25px 0 10px 0;
+    font-family: akbarFont;
+    color: #292929;
+}
+
+#fields {
+    width: 650px;
+    display: inline-block;
+}
+
+#board {
+    background-image: url("media/board.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 860px;
+    opacity: 0.9;
+    position: relative;
+    visibility: hidden;
+
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+}
+
+#intro {
+    position: absolute;
+    visibility: visible;
+    top: 30px;
+    left: 0;
+    display: none;
+}
+
+::-webkit-input-placeholder {
+    font-family: akbarFont;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-family: akbarFont;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+::-moz-placeholder {
+
+    font-family: akbarFont;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+:-ms-input-placeholder {
+    font-family: akbarFont;
+    color: rgba(91, 91, 91, 0.68);
+}
+
+div#input input[type=text] {
+    font-family: akbarFont;
+    background-color: #ffffff;
+    color: #292929;
+    width: 100px;
+    border: 3px solid #5b5b5b;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 1em;
+    visibility: hidden;
+    opacity: 0.9;
+
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+    box-shadow: 0px 0px 20px 4px rgba(100, 100, 100, 0.75);
+}
+
+h2, h3 {
+    margin:  10px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+footer {
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+audio {
+    display: none;
+}
+
+.music {
+    width: 20px;
+    height: 30px;
+    opacity: 1;
+    position: absolute;
+    border: 0;
+
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#music{
+    bottom: 23px;
+    left: 15px;
+    background: url("media/play-button.png");
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#sfx{
+    bottom: 23px;
+    left: 70px;
+    background: url("media/sfx-button.png");
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 100%;
+
+}
+
+.music:disabled {
+    opacity: 0.3;
+}
+
+#donut {
+    position: absolute;
+    width: 50px;
+    bottom: 20px;
+    right: 15px;
+}
+
+.music:hover {
+    -webkit-box-shadow: 0px 0px 10px 7px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 10px 7px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 0px 10px 7px rgba(255, 255, 255, 0.75);
+}
+
+.music:active {
+    -webkit-box-shadow: inset 0px 0px 22px 4px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset 0px 0px 22px 4px rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 0px 22px 4px rgba(255, 255, 255, 1);
+}
+

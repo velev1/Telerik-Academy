@@ -1,0 +1,75 @@
+﻿<!-- Problem 2. Student System
+Create a web page using semantic HTML by the design.
+Use some kind of approach to support old (non-HTML5-compatible) Web browsers like IE8.
+    
+    Note: Do not try to make the same styles. Implement just the content with its semantics.
+     -->
+
+<!-- Task: https://cloud.githubusercontent.com/assets/3619393/7179645/ba6f880e-e442-11e4-9f54-235e88cb686a.png -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>02 Student System</title>
+    <style>
+        table, tr, td, th {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 2px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <figure>
+            Logo
+        </figure>
+        <h1>Welcome to Our Web Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Nav item 1</a>
+            </li>
+            <li>
+                <a href="#">Nav item 2</a>
+            </li>
+            <li>
+                <a href="#">Nav item 3</a>
+            </li>
+            <li>
+                <a href="#">Nav item 4</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ivan</td>
+                    <td>Ivanov</td>
+                    <td>4.54</td>
+                </tr>
+                <tr>
+                    <td>Petar</td>
+                    <td>Petroc</td>
+                    <td>4.31</td>
+                </tr>
+                <tr>
+                    <td>Kiro</td>
+                    <td>Kirov</td>
+                    <td>4.62</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

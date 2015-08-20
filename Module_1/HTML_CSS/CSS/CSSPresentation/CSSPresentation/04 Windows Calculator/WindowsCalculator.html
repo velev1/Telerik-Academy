@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="WindowsCalculatorStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <table id="mainWindow">
+            <tr>
+                <td id="topBar">
+                    <img src="Calculator_Windows_7_Icon.png" id="icon" />
+                    <span>Calculator</span>
+                    <!-- TOP LEFT ICON-->
+
+                    <div id="topRight">
+                        <!-- TOP RIGHT ICONS-->
+                        <button>-</button><button>&#9633</button><button>x</button>
+                    </div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <!-- view edit help-->
+                <td id="navBar">
+                    <ul class="navBar">
+                        <li>View</li>
+                        <li>Edit</li>
+                        <li>Help</li>
+                    </ul>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td id="mainCell">
+                    <!-- buttons -->
+                    <table class="buttons">
+                        <tr>
+                            <!-- main display-->
+                            <td colspan="9" id="mainDisplay">
+                                0123456789
+                            </td>
+                        </tr>
+                        <tr>
+                            <!-- binary dispaly -->
+                            <td colspan="9" id="binaryDispaly">
+                                <table>
+                                    <tr>
+                                        <td>0000 <br /><span>63</span></td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000 <br /><span>47</span></td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0000<br /><span>32</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>0000<br /><span>31</span></td>
+                                        <td>0000</td>
+                                        <td>0000</td>
+                                        <td>0001</td>
+                                        <td>1110<br /><span>15</span></td>
+                                        <td>0010</td>
+                                        <td>0100</td>
+                                        <td>0000<br /><span>0</span></td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="radio" id="numsystem">
+                                <!-- numerical sistem -->
+                                <ul>
+                                    <li>
+                                        <input type="radio" value="" id="hex" name="numSystem" />
+                                        <label for="hex">Hex</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" value="" id="dec" name="numSystem" />
+                                        <label for="dec">Dec</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" value="" id="oct" name="numSystem" />
+                                        <label for="oct">Oct</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" value="" id="bin" name="numSystem" />
+                                        <label for="bin">Bin</label>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td class="active operation">
+                                <div>Mod</div>
+                            </td>
+                            <td class="letter">
+                                A
+                            </td>
+                            <td class="memory">
+                                <div>
+                                    MC
+                                </div>
+                            </td>
+                            <td class="memory">
+                                <div>
+                                    MR
+                                </div>
+
+                            </td>
+                            <td class="memory">
+                                <div>
+                                    MS
+                                </div>
+                            </td>
+                            <td class="memory">
+                                <div>
+                                    M+
+                                </div>
+                            </td>
+                            <td class="memory">
+                                <div>
+                                    M-
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="active operation">
+                                <div>
+                                    (
+                                </div>
+                            </td>
+                            <td class="active operation">
+                                <div>)</div>
+                            </td>
+                            <td class="letter">
+                                B
+                            </td>
+                            <td class="active operation">
+                                <div id="back">&larr;</div>
+                            </td>
+                            <td class="active operation">
+                                <div>CE</div>
+                            </td>
+                            <td class="active operation">
+                                <div>C</div>
+                            </td>
+                            <td class="active operation">
+                                <div>&plusmn;</div>
+                            </td>
+                            <td>
+                                &radic;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="active operation">
+                                <div>RoL</div>
+                            </td>
+                            <td class="active operation">
+                                <div>RoR</div>
+                            </td>
+                            <td class="letter">
+                                C
+                            </td>
+                            <td class="active digit">
+                                <div>7</div>
+                            </td>
+                            <td class="active digit">
+                                <div>8</div>
+                            </td>
+                            <td class="active digit">
+                                <div>9</div>
+                            </td>
+                            <td class="active operation">
+                                <div>/</div>
+                            </td>
+                            <td>
+                                %
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="radio" id="sizes">
+                                <!-- size -->
+                                <ul>
+                                    <li>
+                                        <input type="radio" value="" id="qword" name="numSize" />
+                                        <label for="qword">Qword</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" value="" id="dword" name="numSize" />
+                                        <label for="dword">Dword</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" value="" id="word" name="numSize" />
+                                        <label for="word">Word</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" value="" id="byte" name="numSize" />
+                                        <label for="byte">Byte</label>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td class="active operation">
+                                <div>Or</div>
+                            </td>
+                            <td class="active operation">
+                                <div>Xor</div>
+                            </td>
+                            <td class="letter">
+                                D
+                            </td>
+                            <td class="active digit">
+                                <div>4</div>
+                            </td>
+                            <td class="active digit">
+                                <div>5</div>
+                            </td>
+                            <td class="active digit">
+                                <div>6</div>
+                            </td>
+                            <td class="active operation">
+                                <div>*</div>
+                            </td>
+                            <td>
+                                1/<span id="x">x</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="active operation">
+                                <div>Lsh</div>
+                            </td>
+                            <td class="active operation">
+                                <div>Rsh</div>
+                            </td>
+                            <td class="letter">
+                                E
+                            </td>
+                            <td class="active digit">
+                                <div>1</div>
+                            </td>
+                            <td class="active digit">
+                                <div>2</div>
+                            </td>
+                            <td class="active digit">
+                                <div>3</div>
+                            </td>
+                            <td class="active operation">
+                                <div>-</div>
+                            </td>
+                            <td rowspan="2" class="active operation">
+                                <div>=</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="active operation">
+                                <div>Not</div>
+                            </td>
+                            <td class="active operation">
+                                <div>And</div>
+                            </td>
+                            <td class="letter">
+                                F
+                            </td>
+                            <td colspan="2" class="active digit">
+                                <div>0</div>
+                            </td>
+                            <td>
+                                .
+                            </td>
+                            <td class="active operation">
+                                <div>+</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

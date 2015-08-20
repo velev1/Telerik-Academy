@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>05 Laptop store</title>
+    <link href="LaptopStoreStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Pear</a></li>
+                    <li><a href="#">TuShibaTuNeshiba</a></li>
+                    <li><a href="#">Lainovo</a></li>
+                    <li><a href="#">Debell</a></li>
+                    <li><a href="#">Hasus</a></li>
+                    <li><a href="#">Hacker</a></li>
+                    <li><a href="#">PH5.5</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <fieldset class="float-left">
+                    <legend>Pair AkBook Air</legend>
+                    <div class="clearfix">
+                        <div class="float-left">
+                            <img src="91abdd_d901aa110f6c561a64b4d75fc4eba806.png" />
+                        </div>
+                        <div class="float-left">&nbsp;</div>
+                        <div class="float-left top-margin">64 GB SSD</div>
+                        <div class="float-left top-matgin"> 2GB DDR</div>
+                    </div>
+                    <div>
+                        <div>1300 USD</div>
+                        <div>Intel Core i5</div>
+                    </div>
+                </fieldset>
+                <fieldset class="float-left">
+                    <legend>Pair AkBook Air</legend>
+                    <div class="clearfix">
+                        <div class="float-left">
+                            <img src="91abdd_d901aa110f6c561a64b4d75fc4eba806.png" />
+                        </div>
+                        <div class="float-left">&nbsp;</div>
+                        <div class="float-left top-margin">64 GB SSD</div>
+                        <div class="float-left top-matgin"> 2GB DDR</div>
+                    </div>
+                    <div>
+                        <div>1300 USD</div>
+                        <div>Intel Core i5</div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="float-left">
+                    <legend>Pair AkBook Air</legend>
+                    <div class="clearfix">
+                        <div class="float-left">
+                            <img src="91abdd_d901aa110f6c561a64b4d75fc4eba806.png" />
+                        </div>
+                        <div class="float-left">&nbsp;</div>
+                        <div class="float-left top-margin">64 GB SSD</div>
+                        <div class="float-left top-matgin"> 2GB DDR</div>
+                    </div>
+                    <div>
+                        <div>1300 USD</div>
+                        <div>Intel Core i5</div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="float-left">
+                    <legend>Pair AkBook Air</legend>
+                    <div class="clearfix">
+                        <div class="float-left">
+                            <img src="91abdd_d901aa110f6c561a64b4d75fc4eba806.png" />
+                        </div>
+                        <div class="float-left">&nbsp;</div>
+                        <div class="float-left top-margin">64 GB SSD</div>
+                        <div class="float-left top-matgin"> 2GB DDR</div>
+                    </div>
+                    <div>
+                        <div>1300 USD</div>
+                        <div>Intel Core i5</div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="float-left">
+                    <legend>Pair AkBook Air</legend>
+                    <div class="clearfix">
+                        <div class="float-left">
+                            <img src="91abdd_d901aa110f6c561a64b4d75fc4eba806.png" />
+                        </div>
+                        <div class="float-left">&nbsp;</div>
+                        <div class="float-left top-margin">64 GB SSD</div>
+                        <div class="float-left top-matgin"> 2GB DDR</div>
+                    </div>
+                    <div>
+                        <div>1300 USD</div>
+                        <div>Intel Core i5</div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="float-left">
+                    <legend>Pair AkBook Air</legend>
+                    <div class="clearfix">
+                        <div class="float-left">
+                            <img src="91abdd_d901aa110f6c561a64b4d75fc4eba806.png" />
+                        </div>
+                        <div class="float-left">&nbsp;</div>
+                        <div class="float-left top-margin">64 GB SSD</div>
+                        <div class="float-left top-matgin"> 2GB DDR</div>
+                    </div>
+                    <div>
+                        <div>1300 USD</div>
+                        <div>Intel Core i5</div>
+                    </div>
+                </fieldset>
+            </section>
+            <section id="filter">
+                <form>
+                    <div>
+                        <div>
+                            <label for="min-Price">
+                                Min price:&nbsp;&nbsp;&nbsp;
+                            </label>
+                            <output name="minPrice">500</output>&nbsp;USD
+                        </div>
+                        <div>
+                            <input type="range" oninput="minPrice.value = this.value" id="min-Price" min="250" max="750" step="50">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="max-Price">
+                                Max price:&nbsp;
+                            </label><output name="maxPrice">1500</output>&nbsp;USD
+                        </div>
+
+                        <div>
+                            <input type="range" min="0" max="1500" oninput="maxPrice.value = this.value" id="max-Price" step="1" />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="min-Ram">
+                                Min RAM:&nbsp;&nbsp;&nbsp;
+                            </label> <output name="minRam">4</output>&nbsp;GB
+                        </div>
+                        <div>
+                            <input type="range" min="0" max="4" oninput="minRam.value = this.value" id="min-Ram" step="1" />
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="max-Ram">
+                                Max RAM:&nbsp;&nbsp;&nbsp;
+                            </label><output name="maxRam">16</output>&nbsp;GB
+                        </div>
+                        <div>
+                            <input type="range" min="0" max="16" oninput="maxRam.value=this.value" id="max-Ram" step="1" />
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+    </div>
+</body>
+</html>

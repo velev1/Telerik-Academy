@@ -1,0 +1,80 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:Arial;
+    font-size:14px;
+}
+
+header{
+    font-weight:normal;
+    font-family:'Microsoft JhengHei UI';
+    font-size:0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight:bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section{
+    background: #f2f2f2;
+    padding: 12px;
+    padding-bottom:26px;
+    border-radius:10px;
+    width:405px;
+}
+button{
+    border:0;
+    color:white;
+    font-size: 12px;
+}
+
+button:hover{
+opacity:0.8;
+}
+
+button.add {
+    width:63px;
+    height:25px;
+    background-image: url('button-add.png');
+}
+
+button.listen {
+    width:76px;
+    height:25px;
+    background-image: url('button-listen.png');
+}
+
+img{
+    padding-right:15px;
+    position: relative;
+}
+
+article{
+    position:relative;
+
+    border:2px solid #b5b5b5;
+    background-color:white;
+    padding:15px;
+    margin-top: 36px;
+    vertical-align: top;
+
+}
+
+form {float: right;
+    margin-top: 15px;
+}
+
+article div{
+    display: inline-block;
+    width:215px;
+    vertical-align:top;
+}

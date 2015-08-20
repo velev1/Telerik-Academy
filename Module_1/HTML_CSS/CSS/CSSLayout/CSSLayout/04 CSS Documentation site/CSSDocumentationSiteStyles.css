@@ -1,0 +1,205 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-size: 12px;
+    font-family: 'Microsoft JhengHei UI';
+    background-color: #F1F1F1;
+    text-align:center;
+}
+
+a{
+    color: darkred;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+div h2 {
+    font-size: 1.2em;
+    color:white;
+    background-color: #808080;
+    padding-left:5px;
+}
+
+main section div h3 + p {
+    font-weight: bold;
+
+}
+
+main nav a{
+    display: inline-block;
+    width: 98px;
+    height: 18px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    padding-right: 4px;
+    text-decoration: none;
+    line-height: 18px;
+
+}
+
+main section div h3 + p a {
+    font-weight: normal;
+}
+
+main section div h3{
+    font-size: 1em;
+}
+
+main section header h2 {
+}
+
+nav ul{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left:2px;
+}
+
+
+nav  ul  li  a{
+    text-decoration:none;
+    color: black;
+}
+
+nav  ul  li:first-child  a{
+   font-weight: bold;
+    color: darkred ;
+    
+}
+
+
+
+#wrapper{
+    margin:10px auto;
+    padding:1px;
+    text-align: left;
+    background-color: #F1F1F1;
+    border: 1px solid black;
+    display:inline-block;
+    margin-right:1px;
+    vertical-align:top;
+}
+
+#left-nav {
+    max-width:145px;
+    display: inline-block;
+    vertical-align:top;
+}
+#left-nav > div {
+    margin: 15px 0;
+    vertical-align:baseline;
+    
+}
+
+#left-nav > div > a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#right-side {
+    text-align: center;
+    display:inline-block;
+    max-width: 145px;
+    vertical-align:top;
+    margin: 0;
+    padding: 0;
+
+}
+
+#right-side div{
+    border: 1px solid #808080;
+    margin-top: 1px;
+    margin-right:1px;
+    padding: 0 0 4px 0;
+    background-color:white;
+}
+
+
+#right-side div a {
+    display: block;
+}
+
+#right-side aside div a:first-of-type{
+    margin-top: 3px;
+}
+
+#right-side section div form{
+    margin-bottom: 4px;
+}
+
+aside > div > button{
+    width: 98px;
+    height: 28px;
+    border: 1px solid #4949a5;
+    margin-top: 3px;
+    color:#3c8def;
+
+    bbackground: rgb(179,220,237); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(179,220,237,1) 0%, rgba(118,201,226,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(179,220,237,1)), color-stop(50%,rgba(118,201,226,1)), color-stop(100%,rgba(188,224,238,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(179,220,237,1) 0%,rgba(118,201,226,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(179,220,237,1) 0%,rgba(118,201,226,1) 50%,rgba(188,224,238,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(179,220,237,1) 0%,rgba(118,201,226,1) 50%,rgba(188,224,238,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(179,220,237,1) 0%,rgba(118,201,226,1) 50%,rgba(188,224,238,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+main{
+    background: white;
+    border: 1px solid #808080;
+    max-width:500px;
+    display:inline-block;
+    margin-top: 1px;
+    margin-right: 0;
+    padding: 20px 5px;
+    vertical-align:top;
+}
+
+main nav{
+    padding: 5px 0;
+    margin: 5px 0;
+    border-bottom: 2px solid #808080;
+}
+
+main nav:last-child{
+    border-top: 2px solid #808080;
+}
+
+main section h3, main section p {
+    margin:15px 0 10px 0;
+
+}
+
+main section h3 + p{
+    margin-bottom: 25px;
+}
+
+main section div  {
+
+}
+
+input[type=text] {
+    margin-top: 5px;
+    max-width:90px;
+}
+
+main section img{
+    margin-right:15px;
+    margin-top:3px;
+    margin-bottom:30px;
+    float: left;
+}
+
+.next {
+    background-image: url('next.png');
+}
+
+.prev {
+    background-image: url('prev.png');
+}

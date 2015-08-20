@@ -1,0 +1,19 @@
+﻿body {
+    font-family: Consolas;
+    color: #0094ff;
+}
+
+
+@font-face {
+    font-family: 'ITCEDSCR';
+    src: url('ITCEDSCR.TTF') format('truetype');
+}
+article p::first-line {
+    font-weight:bold;
+    line-height: 2.5em;
+}
+
+article p::first-letter {
+    font-family:'ITCEDSCR';
+    font-size: 3em;
+}

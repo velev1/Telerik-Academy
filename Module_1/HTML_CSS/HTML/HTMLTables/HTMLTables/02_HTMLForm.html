@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>02 HTML Form</title>
+
+    <!-- Problem 2. HTML Form
+    Create a Web Page like the following using forms:
+    https://cloud.githubusercontent.com/assets/3619393/7002981/b2a274b8-dc5b-11e4-9868-68675b7d328e.png -->
+
+    <!--    Note that there are two buttons - you can ignore the first - visually it seem that тhe second one is right
+            but I'm not sure about the functionality part :)    -->
+
+</head>
+<body>
+    <form action="02_HTMLForm.html" method="post">
+        <div>
+            <label for="member name">Member name: </label>
+            <input type="text" id="member name" required="required" /> *req
+        </div>
+        <div>
+            <label for="email">Emali: </label>
+            <input type="email" id="email" required="required" /> *req
+        </div>
+        <div>
+            <label for="school">School: </label>
+            <input type="text" id="school" required="required" /> *req
+        </div>
+        <div>
+            <!-- Try one variant for the button -->
+            <button type="submit"><img src="http://www.workersfrompoland.co.uk/images/submit-job-offer.jpg" alt="Submit button " width="50" /></button>
+        </div>
+        <!-- Try other variant for the button -->
+        <input type="image" src="http://www.workersfrompoland.co.uk/images/submit-job-offer.jpg" value="" width="50" />
+    </form>
+</body>
+</html>
