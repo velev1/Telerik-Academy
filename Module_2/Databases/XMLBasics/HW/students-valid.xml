@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="students-xsl.xsl"?>
+<students:students  
+  xmlns:students="urn:students" 
+  
+  
+  xmlns:exams="urn:exams"
+  >
+  
+  <students:student>
+    <students:name>Pesno Ubavetsa</students:name>
+    <students:sex>undefined</students:sex>
+    <students:birth-date>1999-05-05</students:birth-date>
+    <students:phone>+359 99 88 77</students:phone>
+    <students:email>gosho@ubavetsa.com</students:email>
+    <students:course>Ninja for 21 days</students:course>
+    <students:specialty>Kisck ass</students:specialty>
+    <students:faculty-number>666</students:faculty-number>
+    
+    <students:exams>
+      <exams:exam>
+        <exams:name>Basic box</exams:name>
+        <exams:tutor>Ninjioto</exams:tutor>
+        <exams:score>2.5</exams:score>
+      </exams:exam>
+      <exams:exam>
+        <exams:name>Basic strikes</exams:name>
+        <exams:tutor>Ninjioto Be</exams:tutor>
+        <exams:score>4</exams:score>
+      </exams:exam>
+    </students:exams>
+
+    <students:enrollment>
+      <students:date>2015-01-01</students:date>
+      <students:score>5</students:score>
+    </students:enrollment>
+
+    <students:endorsements>
+      <students:endorsement>
+      <students:teacher>KotoSan</students:teacher>
+      <students:text>Nice bitch</students:text>
+      </students:endorsement>
+      <students:endorsement>
+        <students:teacher>DogoSan</students:teacher>
+        <students:text>Nice bitch</students:text>
+      </students:endorsement>
+      <students:endorsement>
+        <students:teacher>RoboSan</students:teacher>
+        <students:text>Nice bitch</students:text>
+      </students:endorsement>
+      
+    </students:endorsements>
+
+  </students:student>
+  
+  <students:student>    
+    <students:name>Goshko Ubavetsa</students:name>
+    <students:sex>undefined</students:sex>
+    <students:birth-date>2000-05-05</students:birth-date>
+    <students:phone>+359 99 88 77</students:phone>
+    <students:email>gosho@ubavetsa.com</students:email>
+    <students:course>Ninja for 7 days</students:course>
+    <students:specialty>Kisck ass</students:specialty>
+    <students:faculty-number>42</students:faculty-number>
+    
+    <students:exams>
+      <exams:exam>
+        <exams:name>Basic kicks</exams:name>
+        <exams:tutor>Ninjioto</exams:tutor>
+        <exams:score>5.5</exams:score>
+      </exams:exam>
+      <exams:exam>
+        <exams:name>Basic strikes</exams:name>
+        <exams:tutor>Ninjioto Be</exams:tutor>
+        <exams:score>5.5</exams:score>
+      </exams:exam>
+    </students:exams>
+
+    <students:enrollment>
+      <students:date>2015-01-01</students:date>
+      <students:score>3</students:score>
+    </students:enrollment>
+
+    <students:endorsements>
+      <students:endorsement>
+      <students:teacher>KotoSan</students:teacher>
+      <students:text>Stupid bitch</students:text>
+        </students:endorsement>
+    </students:endorsements>
+
+  </students:student>  
+  
+</students:students>
