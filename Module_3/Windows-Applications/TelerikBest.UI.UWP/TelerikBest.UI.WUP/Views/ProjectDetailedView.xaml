@@ -1,0 +1,83 @@
+﻿<Page
+    x:Class="TelerikBest.UI.WUP.Views.ProjectDetailedView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TelerikBest.UI.WUP.Views"
+    xmlns:ctl="using:TelerikBest.UI.WUP.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Project detailed view" Style="{ThemeResource PageTitleTextBlockStyle}" TextWrapping="NoWrap"/>
+
+        <Grid Grid.Row="1">
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="220"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" VerticalAlignment="Stretch"
+                            Source="{Binding MainImageUrl}"/>
+                <TextBlock Grid.Row="1" 
+                            Text="{Binding Title}"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"/>
+                <StackPanel Grid.Row="2"
+                            Orientation="Horizontal"
+                                        HorizontalAlignment="Center">
+                    <TextBlock Text="{Binding ShortDate}"/>
+                    <SymbolIcon   Symbol="View"/>
+                    <TextBlock Text="{Binding Visits}"/>
+                    <SymbolIcon   Symbol="Like"/>
+                    <TextBlock Text="{Binding Likes}"/>
+                    <SymbolIcon    Symbol="Comment"/>
+                    <TextBlock Text="{Binding Comments}"/>
+                </StackPanel>
+                <Rectangle Grid.Row="3" Height="2" Fill="White" Width="2048" HorizontalAlignment="Stretch"/>
+                <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock    Text="Live demo:"/>
+                    <RichTextBlock VerticalAlignment="Bottom" Margin="10,0">
+                        <Paragraph>
+                            <InlineUIContainer>
+                                <HyperlinkButton NavigateUri="{Binding LiveDemoUrl}" Content="{Binding LiveDemoUrl}">
+
+                                </HyperlinkButton>
+                            </InlineUIContainer>
+                        </Paragraph>
+                    </RichTextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="5" Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock    Text="Repository:"/>
+                    <RichTextBlock VerticalAlignment="Bottom" Margin="10,0">
+                        <Paragraph>
+                            <InlineUIContainer>
+                                <HyperlinkButton NavigateUri="{Binding RepositoryUrl}" Content="{Binding RepositoryUrl}">
+
+                                </HyperlinkButton>
+                            </InlineUIContainer>
+                        </Paragraph>
+                    </RichTextBlock>
+                </StackPanel>
+                <Rectangle Grid.Row="6" Height="2" Fill="White" Width="2048" HorizontalAlignment="Stretch"/>
+            </Grid>
+        </Grid>
+        <ScrollViewer Grid.Row="2" VerticalAlignment="Top">
+            <TextBlock 
+                TextWrapping="WrapWholeWords" Text="{Binding Description}"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Center"/>
+        </ScrollViewer>
+    </Grid>
+</Page>

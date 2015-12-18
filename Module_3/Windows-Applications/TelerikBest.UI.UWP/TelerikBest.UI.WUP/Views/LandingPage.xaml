@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="TelerikBest.UI.WUP.Views.LandingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TelerikBest.UI.WUP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock Style="{ThemeResource TitleTextBlockStyle}">To see the best projects from Telerik Academy's Show case system
+            use the top left navigation. 
+            </TextBlock>
+            <TextBlock Style="{ThemeResource TitleTextBlockStyle}">
+           To see the details click on the item.
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

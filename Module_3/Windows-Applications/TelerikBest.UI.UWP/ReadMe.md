@@ -1,0 +1,1 @@
+You may need VisualStudio 2015 with Update 1 in order to run the app.
