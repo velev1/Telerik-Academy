@@ -60,30 +60,16 @@ namespace SpiralMatrix
                     direction = "r";
                 }
 
-
-
-
                 matrix[currRow, currCol] = i;
 
-                if (direction == "r")
-                {
-                    ++currCol;
-                }
-                else if (direction == "d")
-                {
-                    ++currRow;
-                }
-                else if (direction == "l")
-                {
-                    --currCol;
-                }
-                else if (direction == "u")
-                {
-                    --currRow;
-                }
-
-
-
+                //set row or col by direction
+                 switch (direction)
+                 {
+                    case "r": ++currCol; break;
+                    case "l": --currCol; break;
+                    case "d": ++currRow; break;
+                    case "u": --currRow; break;
+                 }
             }
 
             Console.WriteLine(new string('-', n * 4 + 1));
